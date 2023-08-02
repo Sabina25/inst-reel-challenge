@@ -1,0 +1,38 @@
+.instrument-reel-item {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    height: 50px;
+    border-right: 1px solid #444444;
+}
+
+.instrument-reel-item__name, .instrument-reel-item__price, .instrument-reel-item-icon {
+    display: block;
+    margin-right: 10px;
+}
+
+.instrument-reel-item :hover {
+    background-color: #222222;
+}
+
+.instrument-reel-item__name {
+    font-weight: bold;
+}
+
+.instrument-reel-item__price {
+    font-variant-numeric: tabular-nums;
+}
+
+.instrument-reel-item__price span {
+    display: inline-block;
+    text-align: center;
+    width: 14px;
+}
+
+.instrument-reel-item__price--up {
+    color: #0f8a1f;
+}
+
+.instrument-reel-item__price--down {
+    color: #ec4446;
+}

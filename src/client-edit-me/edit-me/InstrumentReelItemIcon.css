@@ -1,0 +1,34 @@
+.instrument-reel-item-icon {
+    margin-left: 10px;
+}
+
+.instrument-reel-item-icon img {
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.instrument-reel-item-icon--pair {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.instrument-reel-item-icon--pair img {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+
+.instrument-reel-item-icon--pair img:last-child {
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.instrument-reel-item-icon--pair img:first-child {
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
